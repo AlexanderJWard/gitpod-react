@@ -24,7 +24,7 @@ class StatefulGreeting extends React.Component {
     //     console.log(this.state.buttonText);
     // }
 
-    handleClick() {
+    handleClick = () => {
         this.setState((prevState, prevProps) => {
             console.log("Previous state:", prevState);
             console.log("Previous props:", prevProps);
@@ -38,7 +38,7 @@ class StatefulGreeting extends React.Component {
         });
     }
 
-    increment() {
+    increment = () => {
         this.setState((prevState, prevProps) => {
             console.log("Previous state:", prevState);
             console.log("Previous props:", prevProps);
@@ -53,8 +53,8 @@ class StatefulGreeting extends React.Component {
         return (
             <div>
                 <h1>{this.state.introduction} {this.props.name}, {this.props.greeting}</h1>
-                <button onClick={() => this.handleClick()}>{this.state.buttonText}</button>
-                <button onClick={() => this.increment()}>Increment</button>
+                <button onClick={this.handleClick}>{this.state.buttonText}</button>
+                <button onClick={this.increment}>Increment</button>
                 <p>You clicked the button {this.state.count} times</p>
             </div>
         ) 
