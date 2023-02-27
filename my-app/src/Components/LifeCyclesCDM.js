@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LifeCyclesCDMChild from './LifeCycleCDMChild'
+import LifeCyclesCDMChild from './LifeCyclesCDMChild'
 
 export class LifeCyclesCDM extends Component {
     

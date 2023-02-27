@@ -9,7 +9,12 @@ import ConditionalRenderingFunctional from './Components/ConditionalRenderingFun
 import NestingComponents from './Components/NestingComponents';
 import MethodsAsPropsParent from './Components/MethodsAsPropsParent';
 import RenderingLists from './Components/RenderingLists';
-import LifeCyclesCDM from './Components/LifeCycleCDM';
+import LifeCyclesCDM from './Components/LifeCyclesCDM';
+import LifeCyclesCDU from './Components/LifeCyclesCDU';
+import LifeCyclesCWU from './Components/LifeCyclesCWU';
+import ControlledForm from './Components/ControlledForm';
+import UncontrolledForm from './Components/UncontrolledForm';
+import SearchBar from './Components/SearchBar';
 
 function App() {
   return (
@@ -22,8 +27,13 @@ function App() {
       <ConditionalRenderingFunctional connected={true}/>
       <NestingComponents/>
       <MethodsAsPropsParent/>
-      <RenderingLists/> */}
+      <RenderingLists/>
       <LifeCyclesCDM/>
+      <LifeCyclesCDU/>
+      <LifeCyclesCWU/>
+      <ControlledForm/>
+      <UncontrolledForm/> */}
+      <SearchBar/>
     </div>
   );
 }
