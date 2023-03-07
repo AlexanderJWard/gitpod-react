@@ -15,6 +15,19 @@ import LifeCyclesCWU from './Components/LifeCyclesCWU';
 import ControlledForm from './Components/ControlledForm';
 import UncontrolledForm from './Components/UncontrolledForm';
 import SearchBar from './Components/SearchBar';
+import HooksCounter from './Components/HooksCounter';
+import ControlledFormHooks from './Components/ControlledFormHooks';
+import UseStateWithArrays from './Components/UseStateWithArrays';
+import UseStateWithObjects from './Components/UseStateWithObjects';
+import UseEffectCounter from './Components/UseEffectCounter';
+import UseEffectCounterContainer from './Components/UseEffectCounterContainer';
+import Coordinates from './Components/ReactPracticeCoordinates';
+import ReactPractiseCoordinates from './Components/ReactPracticeCoordinates';
+import ReactPracticeCounter from './Components/ReactPracticeCounter';
+import ReactPracticeForm from './Components/ReactPracticeForm';
+import HTTPRequests from './Components/HTTPRequests';
+import HTTPPost from './Components/HTTPPost';
+import HTTPHooks from './Components/HTTPHooks';
 
 function App() {
   return (
@@ -32,8 +45,20 @@ function App() {
       <LifeCyclesCDU/>
       <LifeCyclesCWU/>
       <ControlledForm/>
-      <UncontrolledForm/> */}
+      <UncontrolledForm/>
       <SearchBar/>
+      <HooksCounter/>
+      <ControlledFormHooks/>
+      <UseStateWithArrays/>
+      <UseStateWithObjects/>
+      <UseEffectCounter/>
+      <UseEffectCounterContainer/> */}
+      {/* <ReactPractiseCoordinates/>
+      <ReactPracticeCounter/>
+      <ReactPracticeForm/> */}
+      {/* <HTTPRequests/>
+      <HTTPPost/> */}
+      <HTTPHooks/>
     </div>
   );
 }
